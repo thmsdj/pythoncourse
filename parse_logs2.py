@@ -53,7 +53,7 @@ for filename in os.listdir(args.path):
                 try:
                     urls[url] = urls[url] +1
                 except:
-                    urls[url] = 1             
+                    urls[url] = 1         
                 for keyword in keywords:
                     if keyword in agent:
                         d[keyword] = d.get(keyword, 0) + 1
